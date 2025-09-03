@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgc8cm8k21gpt"]
+
+[ext_resource type="Script" uid="uid://bq1jt1bsuudha" path="res://file_dialog.gd" id="1_84rj3"]
+
+[node name="Main Display" type="Node2D"]
+
+[node name="FileDialog" type="FileDialog" parent="."]
+title = "Open a File"
+initial_position = 1
+visible = true
+ok_button_text = "Open"
+file_mode = 0
+access = 2
+root_subfolder = "C:\\Users\\devwillis\\Downloads\\"
+filters = PackedStringArray("*.csv")
+script = ExtResource("1_84rj3")
