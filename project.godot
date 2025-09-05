@@ -14,3 +14,12 @@ config/name="Fresh Service Visualizer"
 run/main_scene="res://main_display.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=2000
+window/size/viewport_height=1000
+
+[gui]
+
+theme/default_font_multichannel_signed_distance_field=true
